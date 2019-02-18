@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bulletin</string>
+    <string name="trending_topics">Trending Topics</string>
+    <string name="trending_news_image">Trending news image</string>
+    <string name="author_unknown">Unknown</string>
+    <string name="menu_saved">Saved</string>
+    <string name="menu_search">Search</string>
+    <string name="fetching_latest_news">Fetching latest news</string>
+    <string name="bookmark_news">Bookmark news</string>
+    <string name="enter_your_query">Enter your query</string>
+    <string name="searching_for_topics">Searching for topics</string>
+    <string name="no_bookmarks_yet">No bookmarks yet</string>
+    <string name="no_results_found">No results found</string>
+    <string name="add_widget">Add widget</string>
+    <string name="top_headlines">Top Headlines</string>
+    <string name="author_icon">Author Icon</string>
+    <string name="news_icon_web_View">News Source</string>
+</resources>

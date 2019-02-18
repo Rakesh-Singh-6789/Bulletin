@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    app:elevation="12dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/trendingImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/trending_news_image"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/black_gradient" />
+
+        <TextView
+            android:id="@+id/trendingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginEnd="14dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="This is a dummy news text" />
+
+        <ImageView
+            android:id="@+id/authorIcon"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_below="@id/trendingTitle"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/ic_edit" />
+
+        <TextView
+            android:id="@+id/trendingAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/trendingTitle"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_toEndOf="@id/authorIcon"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/colorGray"
+            android:textSize="14sp"
+            tools:text="Author" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
